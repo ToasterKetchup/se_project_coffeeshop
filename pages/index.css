@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.header__flex_key_1 {
+nav {
   display: flex;
   margin: 30px 80px 0px 30px;
   justify-content: space-between;
