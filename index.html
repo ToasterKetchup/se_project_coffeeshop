@@ -6,7 +6,6 @@
   <meta name="description" content="Welcome to the Gensokyo Café! I hope you enjoy your time here!">
   <meta name="author" content="Andrew G.">
   <meta name="keywords" content="coffee, beans, toasted, chill">
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -127,14 +126,164 @@
         </form>
       </section>
       <section id="menu" class="menu">
-
+        <p class="menu__title">
+          Menu
+        </p>
+        <p class="menu__subtitle">
+          We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.
+        </p>
+        <div class="menu__cards">
+          <div class="menu__flex">
+            <div class="card">
+              <div class="card__title">
+                Filter
+              </div>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz)&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$1.5 <!--Nobody writes 1.5 dollars, I'm just sayin'.-->
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)&nbsp; <!--The largest size is decaf? That's just evil.-->
+                  <span class="card__list-divider"></span>
+                  &nbsp;$1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <div class="card__title">
+                Espresso
+              </div>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha&nbsp;
+                  <span class="card__list-divider"></span>
+                  &nbsp;$3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)&nbsp; <!--Ah yes, the coolest sounding coffee is decaf. Whoever wrote this is just sadistic.-->
+                  <span class="card__list-divider"></span>
+                  &nbsp;$10
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__title">
+              Baked Goods
+            </div>
+            <ul class="card__list">
+              <li class="card__list-item">
+                Almond Croissant&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$2
+              </li>
+              <li class="card__list-item">
+                Banana Bread&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$1.75
+              </li>
+              <li class="card__list-item">
+                Key Lime Pie&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$3
+              </li>
+              <li class="card__list-item">
+                Blue Velvet Cake&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$3.75
+              </li>
+              <li class="card__list-item">
+                Web Cookie&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$2
+              </li>
+              <li class="card__list-item">
+                Fresh Bug'uette&nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp;$0.25 <!--A quarter? LET'S GO-->
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section id="about" class="about">
-
+        <p class="about__title">
+          About the coffee shop
+        </p>
+        <div class="about__content">
+          <p class="about__paragraph">
+            Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.
+          </p>
+          <p class="about__paragraph">
+            Our main mission is keeping guests cozy and energized.
+          </p>
+          <p class="about__paragraph">
+            Besides that, we try to reduce our environmental impact —— so we don't sell single-use cups. But you can buy one of our reusable cups!
+          </p>
+        </div>
+        <div class="about__circle"></div>
+        <div class="about__circle about__circle_animation_blurred"></div>
       </section>
     </main>
     <footer class="footer">
-
+      <div class="footer__content">
+        <img
+          src="images/logo_coffeeshop_light.svg"
+          class="footer__logo"
+          alt="Oopsie-whoopsie"
+        />
+        <div class="footer__flex">
+          <p class="footer__social-heading">
+            Social Media
+          </p>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <img
+                src="images/facebook_white.svg"
+                class="footer__social-icon"
+              />
+              <a href="https://www.facebook.com/" class="footer__social-link">Facebook</a>
+            </li>
+            <li class="footer__list-item">
+              <img
+                src="images/instagram_white.svg"
+                class="footer__social-icon"
+              />
+              <a href="https://www.instagram.com/" class="footer__social-link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">
+        © 2023 Andrew Garmon
+      </p>
     </footer>
   </div>
 

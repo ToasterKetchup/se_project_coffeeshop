@@ -1,0 +1,35 @@
+@keyframes navcolorshift {
+to {
+    color: #2F80ED;
+  }
+}
+nav {
+  display: flex;
+  margin: 30px 80px 0px 30px;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  margin: 0 0 0 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__link:hover {
+  animation: navcolorshift 0.25s linear 1 forwards;
+}
+
+.nav__logo {
+  position: relative;
+  max-width: 105px;
+  max-height: 39px;
+}

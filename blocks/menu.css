@@ -1,0 +1,44 @@
+.menu {
+  background-color: white;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 100px 0;
+  margin: 0;
+}
+
+.menu__title {
+  margin: 0 0 24px 0;
+  max-width: 780px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  margin: 0 0 100px 0;
+  max-width: 780px;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.menu__flex {
+  margin: 0;
+  display: flex;
+  gap: 100px;
+}
