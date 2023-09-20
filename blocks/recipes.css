@@ -10,7 +10,7 @@
 }
 
 .recipes__title {
-  margin: 100px auto 24px 80px;
+  margin: 100px auto 0px 80px;
   max-width: 580px;
   font-weight: 500;
   font-size: 44px;
@@ -20,7 +20,7 @@
 .recipes__subtitle {
   margin: 24px auto 80px 80px;
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -28,8 +28,10 @@
 .recipes__videos {
   display: flex;
   margin: 0 auto 215px auto;
+  padding: 0;
   justify-content: center;
   gap: 40px;
+  list-style-type: none;
 }
 
 .recipes__iframes {
@@ -37,12 +39,15 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0;
+  padding: 0;
   gap: 24px;
 }
 /*DEAR REVIEWER:
 I know this looks strange, because it doesn't match the picture. It's clearly more than 24px, but I can't figure out why.*/
 
 .recipes__iframe {
+  width: 480px;
+  height: 273px;
   border: none;
 }
 

@@ -33,7 +33,7 @@
 .header__description {
   margin: 28px 0 0 80px;
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -56,12 +56,16 @@
   color: #838383
 }
 
-.header__paragraphs_key_1 {
+.header__paragraph {
+  margin: 0;
+}
+
+.header__paragraphs_value_hours {
   display: flex;
   flex-direction: column;
 }
 
-.header__paragraphs_key_2 {
+.header__paragraphs_value_address {
   display: flex;
   flex-direction: column-reverse;
 }

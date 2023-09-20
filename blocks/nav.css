@@ -3,10 +3,11 @@ to {
     color: #2F80ED;
   }
 }
-nav {
+.nav {
   display: flex;
   margin: 30px 80px 0px 30px;
   justify-content: space-between;
+  padding: 0;
 }
 
 .nav__links {
@@ -16,10 +17,13 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav__link {
-  margin: 0 0 0 20px;
+  margin: 0;
   text-decoration: none;
   color: inherit;
 }
