@@ -8,12 +8,22 @@
   }
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
 .form__fieldset{
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-style: none;
   padding: 0;
   margin: 0;
+  min-width: 1100px;
+  max-width: 1600px;
 }
 
 .form__label {
@@ -21,6 +31,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 8px 0;
+  padding: 0;
   display: flex;
 }
 
@@ -34,6 +45,7 @@
   box-sizing: border-box;
   height: 60px;
   max-width: 385px;
+  width: 100%;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 32px 0;
@@ -52,6 +64,8 @@
   font-size: 16px;
   line-height: 20px;
   max-width: 385px;
+  width: 100%;
+  flex-grow: 1;
   height: 60px;
   background-color: #2F80ED;
   color: white;
@@ -70,5 +84,5 @@
   height: 20px;
   background-color: #2F80ED;
   background-image: url(../images/check.svg);
-  margin-right: 12px;
+  margin: 0 12px 0 0;
 }
