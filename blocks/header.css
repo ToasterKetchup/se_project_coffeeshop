@@ -60,12 +60,12 @@
   margin: 0;
 }
 
-.header__paragraphs_value_hours {
+.header__details_value_hours {
   display: flex;
   flex-direction: column;
 }
 
-.header__paragraphs_value_address {
+.header__details_value_address {
   display: flex;
   flex-direction: column-reverse;
 }
