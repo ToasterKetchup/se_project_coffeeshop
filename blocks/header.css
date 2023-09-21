@@ -24,7 +24,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
